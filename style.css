@@ -1,0 +1,24 @@
+body{
+    background: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: goldenrod;
+}
+
+#header{
+    background: rgb(52, 53, 58);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#action-bar{
+    list-style: none;
+}
+
+#slider{
+    width: 300px;
+    height: 10px;
+    outline: 6px;
+    border-radius: 7px;
+}
