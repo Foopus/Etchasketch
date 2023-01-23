@@ -8,11 +8,16 @@
 
     <body>
         <ul id="header">
-            <li id ="title">McModern Artist</li>
-            <li id ="instructions">Enter a number between 1 and 100 to select the desired grid resolution</li>
-            <ul id ="action-bar">
-                <li><input type="range" min="1" max="100" value="50"id="slider"></li>
-            </ul>
+            <li id ="title">The Lego Canvas</li>
+            <li id ="instructions">Use the slider to select the desired grid resolution</li>
+            <div id ="action-bar">
+                <input type="range" min="1" max="100" value="50"id="slider">
+                <div id="selector">
+                    <div class="selectBtn"></div>
+                    <div id="selectValue"></div>
+                </div>
+                <span id="rangeDisplay"></span>
+            </div>
         </ul>
 
     </body>

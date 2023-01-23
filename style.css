@@ -6,19 +6,79 @@ body{
 
 #header{
     background: rgb(52, 53, 58);
+    
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+#title{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 25px;
+}
+
+#instructions{
+    padding: 10px;
+}
 
 #action-bar{
     list-style: none;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    position: relative;
 }
 
 #slider{
+    -webkit-appearance: none;
     width: 300px;
     height: 10px;
     outline: 6px;
     border-radius: 7px;
 }
+
+#slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 32px;
+    height:32px;
+    cursor: pointer;
+    z-index: 3;
+    position: relative;
+}
+
+
+ 
+#selector{
+    height: 70px;
+    width: 32px;
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.selectBtn{
+    height: 32px;
+    width: 32px;
+    background-image: url(icon.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+#selectValue{
+    width: 32px;
+    height:32px;
+    position: absolute;
+    top: 0;
+    background: #2b08c5;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}   
