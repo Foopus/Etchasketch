@@ -2,11 +2,15 @@ body{
     background: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: goldenrod;
-}
+    margin: 0px;
+    padding: 0px;
+
+}       
 
 #header{
     background: rgb(52, 53, 58);
-    
+    margin: 10px;
+    padding: 0px;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -78,7 +82,18 @@ body{
     background: #2b08c5;
     border-radius: 8px;
     text-align: center;
-    line-height: 6px;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 18px;
     font-weight: bold;
-}   
+    color: #9891b6;
+}  
+
+/* #selectValue::after{
+    content: "" ;
+    border-top: 12px solid #2b08c5;
+    border-left: 16px solid #000;
+    border-right: #000;
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+} */
