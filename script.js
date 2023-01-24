@@ -11,7 +11,7 @@ slider.oninput = function(){
     // Altered Traits - Meditation book
 }
 
-let buttonLog = document.querySelector("button");
+let buttonLog = document.querySelector("#submit");
 
 buttonLog.addEventListener('click', function getRange(){
     let num = document.getElementById("slider").value;

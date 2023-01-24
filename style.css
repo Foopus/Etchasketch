@@ -4,13 +4,13 @@ body{
     color: goldenrod;
     margin: 0px;
     padding: 0px;
-
+    
 }       
 
 #header{
     background: rgb(52, 53, 58);
     margin: 10px;
-    padding: 0px;
+    padding: 10px;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -85,15 +85,42 @@ body{
     line-height: 30px;
     font-size: 18px;
     font-weight: bold;
-    color: #9891b6;
+    color: #d8d2f7;
 }  
 
-/* #selectValue::after{
-    content: "" ;
-    border-top: 12px solid #2b08c5;
-    border-left: 16px solid #000;
-    border-right: #000;
-    position: absolute;
-    bottom: -14px;
-    left: 0;
-} */
+.btnBox{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 50%;
+}
+
+.btn{
+    border-radius: 8px;
+    background-color: #2b08c5;
+    color: goldenrod;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#grid{
+    
+    align-items: stretch;
+    display: flex;
+    justify-content: stretch;
+    height: 800px;
+    width: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 10px;
+    border-style: groove;
+    border-color: #2b08c5;
+}
