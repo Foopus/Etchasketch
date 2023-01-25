@@ -124,3 +124,14 @@ body{
     border-style: groove;
     border-color: #2b08c5;
 }
+
+.tile{
+    margin: 0px;
+    padding: 0px;
+    background: white;
+    border-style: dotted;
+    border-color: black;
+    border:2px;
+    flex: 1;
+    
+}
